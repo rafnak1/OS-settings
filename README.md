@@ -13,7 +13,7 @@ Secondary Chrome (Shift+Ctrl+E)
 google-chrome --profile-directory="Profile 1" --new-window
 ```
 ## Startup Applications
-imwheel (avoid Alt+Tab scrolling issue)
+imwheel - avoid killing forward and back mouse buttons (use imwheel to avoid Ubuntu Alt+Tab scrolling issues; use .imwheelrc to keep ctrl + scroll zoom)
 ```
 imwheel -b "45"
 ```
