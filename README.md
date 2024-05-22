@@ -1,6 +1,6 @@
 # Ubuntu
 ## Keyboard shortcuts
-Terminal
+Terminal (set font size manually, around 16 or 18)
 ```
 gnome-terminal --maximize
 ```
