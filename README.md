@@ -18,6 +18,6 @@ imwheel - avoid killing forward and back mouse buttons (use imwheel to avoid Ubu
 imwheel -b "4 5"
 ```
 ## Mozc
-Build from source using container
+Build from source using container, with bazel flag `--local_resources=cpu=4`
 
 Set half width space
