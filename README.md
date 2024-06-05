@@ -21,3 +21,21 @@ imwheel -b "4 5"
 Build from source using container, with bazel flag `--local_resources=cpu=4`
 
 Set half width space
+
+## Nvidia Container Toolkit
+If you get the error:
+```
+Failed to initialize NVML: Unknown Error
+```
+Then try editing:
+```
+/etc/nvidia-container-runtime/config.toml
+```
+By changing `no-cgroups` to:
+```
+no-cgroups = false
+```
+And then:
+```
+sudo systemctl restart docker
+```
